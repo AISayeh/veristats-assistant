@@ -38,12 +38,6 @@ function reloadCheckboxes() {
 
             odds[i].getElementsByTagName("td")[0].classList.add("check-field")
 
-            odds[i].getElementsByTagName("td")[5].addEventListener("click",(event)=> {
-                var ip = event.target.innerText
-
-                copyStringToClipboard(ip)
-            })
-
             odds[i].getElementsByTagName("td")[0].addEventListener("dblclick",(event)=> {
                 var ip = event.target.innerText
                 ip = ip.split("_")[0]
