@@ -5,6 +5,7 @@
 // @description  try to take over the world!
 // @author       Ameed Sayeh
 // @match        http://veristats/version.html?&driver_version=OFED-internal*
+// @match        http://10.134.4.12/version.html?&driver_version=OFED-internal*
 // @grant        none
 // ==/UserScript==
 
